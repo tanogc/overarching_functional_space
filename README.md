@@ -1,6 +1,8 @@
 # Building an overarching functional space
 
-Code to re-create analysis for "A trait space at an overarching-scale yields more conclusive macroecological patterns of functional diversity". This code calculates FD metrics (functional richness, dispersion and evenness) based on FSs covering three decreasing grain-sizes of trait variation: an overarching European scale (541 taxa), a continental context-dependent scale that covers six regions (180 taxa) and six regional-scale FSs (63-108 taxa). It also show the latitudinal response of taxonomic richness and FD metrics. Finally, it provides code to perform null models to assess if FD patterns were independent of taxonomic richness variation and to identify community assembly mechanisms (filtering or overdispersion) along the latitudinal gradient.
+Code to re-create analysis for "A trait space at an overarching-scale yields more conclusive macroecological patterns of functional diversity". 
+
+This code calculates functional diversity (FD) metrics (functional richness, dispersion and evenness) based on functional spaces (FSs) covering three decreasing grain-sizes of trait variation: an overarching European scale (541 taxa), a continental context-dependent scale that covers six regions (180 taxa) and six regional-scale FSs (63-108 taxa). It also show the latitudinal response of taxonomic richness and FD metrics. Finally, it provides code to perform null models to assess if FD patterns were independent of taxonomic richness variation and to identify community assembly mechanisms (filtering or overdispersion) along the latitudinal gradient.
 
 ## Original article:
 
