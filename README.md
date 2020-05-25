@@ -26,8 +26,7 @@ more conclusive macroecological patterns of functional diversity. Global Ecology
 * latitude.txt: latitudinal information for each site
 
 ## Dependencies
-To run the code and functions from this repository, you need to install the following packages: 'ade4','ape','clue', 'cluster', 'FD', 'geometry',
-'gtools','plyr', 'MuMIn', 'vegan'. We can install them by running the following line:
+To run the code and functions from this repository, you need to install the following packages: 'ade4','ape','clue', 'cluster', 'FD', 'geometry', 'gtools','plyr', 'MuMIn', 'vegan'. Use this code to install them:
 
 ```
 install.packages(c("ade4","ape","clue", "cluster", "FD", "geometry",
