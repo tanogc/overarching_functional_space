@@ -10,7 +10,7 @@ more conclusive macroecological patterns of functional diversity. Global Ecology
 ```
 
 ## Dependencies
-To run the code and functions, you need to install the following packages: 'ade4','ape','clue', 'cluster', 'FD', 'geometry',
+To run the code and functions from this repository, you need to install the following packages: 'ade4','ape','clue', 'cluster', 'FD', 'geometry',
 'gtools','plyr', 'MuMIn', 'vegan'. We can install them by running the following line:
 
 ```
