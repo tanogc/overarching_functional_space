@@ -5,7 +5,7 @@
 # R script to estimate Functional Diversity (FD) metrics                                                        # 
 #                                                                                                               #
 #                                                                                                               #
-# A trait space at an overarching-scale yields more conclusivemacroecological patterns of functional diversity  #
+# A trait space at an overarching-scale yields more conclusive macroecological patterns of functional diversity  #
 #                                                                                                               #
 #                                                                                                               #
 # Cesc Múrria, Gabone Iturrarte and Cayetano Gutiérrez-Cánovas                                                  #

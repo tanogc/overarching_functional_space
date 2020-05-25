@@ -90,9 +90,7 @@ site.mat1<-site.mat1[,(intersect(rownames(ov.pco$li), colnames(site.mat1)))]
 reg.mat<-reg.mat[,(intersect(rownames(ov.pco$li), colnames(reg.mat)))]
 
 ###########################################################################
-# Coninental scale (study-specific) FS (PCoA)
-
-## Contiental-based FS
+# Coninental scale FS (PCoA)
 
 # Matrix to store correlations between continental and regional FS axes
 cor.b<-data.frame(matrix(NA, 1, 10))
@@ -404,18 +402,17 @@ FEve_co[which(is.na(FEve_co)==T)]<-0
 reg_pool<-rbind(reg.mat, rep(1,ncol(reg.mat)))
 rownames(reg_pool)[7]<-"study pool"
 
-# FD metrics of study and regional pools  based on overarching FS
+# FRic metric of regional taxon pools based on overarching FS
 #2D
 fric_3d(reg_pool,ov.pco$li,m=2,prec="Qt") -> FRic_co_2d
-write.table(FRic_co_2d, "FRic_co_2d.txt", sep="\t")
 #6D
 fric_3d(reg_pool,ov.pco$li,m=6,prec="Qt", fric.3d.max =ch_ov) -> FRic_ov_hull
 
+# Saving results
+write.table(FRic_co_2d, "FRic_co_2d.txt", sep="\t")
 
-# FD metrics of study and regional pools based on study-specific FS 
+# FRic metric of regional taxon pools based on continental FS
 fric_3d(reg.mat,con.pco$li,m=6,prec="Qt", fric.3d.max = ch_st) -> FRic_st
-fdisp_k_sub(tr.dist_con, reg.mat,tax_sub=colnames(reg.mat), m=7)$FDis -> FDis_st
-feve_k(con.pco$li,reg.mat,m=7) -> FEve_st
 
 # Using Regional-scale FSs
 
