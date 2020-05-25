@@ -21,6 +21,7 @@ more conclusive macroecological patterns of functional diversity. Global Ecology
 * traits.txt: fuzzy coding traits for 541 river macroinvertebrate taxa
 * regional_taxa.txt: regional occurrence of river macroinvertebrate taxa
 * site_taxa.txt: site occurrences of river macroinvertebrate taxa
+* latitude.txt: latitudinal information for each site
 
 ## Dependencies
 To run the code and functions from this repository, you need to install the following packages: 'ade4','ape','clue', 'cluster', 'FD', 'geometry',
