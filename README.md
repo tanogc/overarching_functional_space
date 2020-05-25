@@ -1,6 +1,6 @@
-# Calculating an overarching functional space
+# Building an overarching functional space
 
-Code to re-create analysis for "A trait space at an overarching-scale yields more conclusive macroecological patterns of functional diversity"
+Code to re-create analysis for "A trait space at an overarching-scale yields more conclusive macroecological patterns of functional diversity".
 
 ## Original article:
 
