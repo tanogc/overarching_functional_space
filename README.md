@@ -35,5 +35,5 @@ install.packages(c("ade4","ape","clue", "cluster", "FD", "geometry",
 
 ```
 
-Please, send questions or problems related with the use of this code to Cayetano Gutiérrez Cánovas (cayeguti@um.es) or Cesc Múrraia (cmurria@gmail.com).
+Please, send questions or problems related with the use of this code to Cayetano Gutiérrez Cánovas (cayeguti@um.es) or Cesc Múrria (cmurria@gmail.com).
 
