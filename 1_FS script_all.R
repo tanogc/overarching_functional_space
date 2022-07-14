@@ -345,37 +345,37 @@ swe.gr<-data.frame(group2=traits_raw$Group2,traits)[(intersect(rownames(traits),
 
 pdf(file="continental_fs.pdf",onefile=T,width=4,height=4)  
 par(mfrow=c(1,1),cex.axis=1.85,cex.lab=2,cex.main=2,mar=c(5,5,4,1))
-s.class(con.pco$li, fac = con.gr$group2[which(rowSums(traits.con)==9)], plines.col = 1:18, col = TRUE)
+s.class(con.pco$li, fac = factor(con.gr$group2[which(rowSums(traits.con)==9)]), plines.col = 1:18, col = TRUE)
 dev.off()
 
 pdf(file="rif_fs.pdf",onefile=T,width=4,height=4)  
 par(mfrow=c(1,1),cex.axis=1.85,cex.lab=2,cex.main=2,mar=c(5,5,4,1))
-s.class(rif.pco$li, fac = rif.gr$group2[which(rowSums(rif.tr)==9)], plines.col = 1:18, col = TRUE)
+s.class(rif.pco$li, fac = factor(rif.gr$group2[which(rowSums(rif.tr)==9)]), plines.col = 1:18, col = TRUE)
 dev.off()
 
 pdf(file="bet_fs.pdf",onefile=T,width=4,height=4)  
 par(mfrow=c(1,1),cex.axis=1.85,cex.lab=2,cex.main=2,mar=c(5,5,4,1))
-s.class(bet.pco$li, fac = bet.gr$group2[which(rowSums(bet.tr)==9)], plines.col = 1:18, col = TRUE)
+s.class(bet.pco$li, fac = factor(bet.gr$group2[which(rowSums(bet.tr)==9)]), plines.col = 1:18, col = TRUE)
 dev.off()
 
 pdf(file="pic_fs.pdf",onefile=T,width=4,height=4)  
 par(mfrow=c(1,1),cex.axis=1.85,cex.lab=2,cex.main=2,mar=c(5,5,4,1))
-s.class(pic.pco$li, fac = pic.gr$group2[which(rowSums(pic.tr)==9)], plines.col = 1:18, col = TRUE)
+s.class(pic.pco$li, fac = factor(pic.gr$group2[which(rowSums(pic.tr)==9)]), plines.col = 1:18, col = TRUE)
 dev.off()
 
 pdf(file="jura_fs.pdf",onefile=T,width=4,height=4)  
 par(mfrow=c(1,1),cex.axis=1.85,cex.lab=2,cex.main=2,mar=c(5,5,4,1))
-s.class(jura.pco$li, fac = jura.gr$group2[which(rowSums(jura.tr)==9)], plines.col = 1:18, col = TRUE)
+s.class(jura.pco$li, fac = factor(jura.gr$group2[which(rowSums(jura.tr)==9)]), plines.col = 1:18, col = TRUE)
 dev.off()
 
 pdf(file="car_fs.pdf",onefile=T,width=4,height=4)  
 par(mfrow=c(1,1),cex.axis=1.85,cex.lab=2,cex.main=2,mar=c(5,5,4,1))
-s.class(car.pco$li, fac = car.gr$group2[which(rowSums(car.tr)==9)], plines.col = 1:18, col = TRUE)
+s.class(car.pco$li, fac = factor(car.gr$group2[which(rowSums(car.tr)==9)]), plines.col = 1:18, col = TRUE)
 dev.off()
 
 pdf(file="swe_fs.pdf",onefile=T,width=4,height=4)  
 par(mfrow=c(1,1),cex.axis=1.85,cex.lab=2,cex.main=2,mar=c(5,5,4,1))
-s.class(swe.pco$li, fac = swe.gr$group2[which(rowSums(swe.tr)==9)], plines.col = 1:18, col = TRUE)
+s.class(swe.pco$li, fac = factor(swe.gr$group2[which(rowSums(swe.tr)==9)]), plines.col = 1:18, col = TRUE)
 dev.off()
 
 #######################################################################################
